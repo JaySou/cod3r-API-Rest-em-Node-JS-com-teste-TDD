@@ -1,0 +1,34 @@
+{
+  "name": "seubarriga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "lint": "npx eslint src/** test/** --fix",
+    "test": "npx jest",
+    "secure-mode": "npx jest --watchAll --verbose=true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "23.6.0",
+    "supertest": "4.0.2"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "1.19.0",
+    "consign": "0.1.6",
+    "express": "4.17.1",
+    "jwt-simple": "0.5.5",
+    "knex": "0.21.2",
+    "knex-logger": "0.1.0",
+    "passport": "0.4.0",
+    "passport-jwt": "4.0.0",
+    "pg": "8.3.0"
+  }
+}

@@ -1,0 +1,36 @@
+
+#01 intalar dependencia do eslint
+    npm install --save -D -E eslint
+
+#02 Executar a linha de comando para iniciar o lint
+    npx eslint --init
+
+#3 Responder as Perguntas
+    P: How would you like to use ESLint?
+    R: To Check syntax, find problems, and force code style
+
+    P: What type of modules does your project use?
+    R: None of these
+
+    P: Which framework does your project use?
+    R: none of these
+
+    P: Does your project use TypeScript?
+    R: No
+
+    P: Where does your code run?
+    R: Node
+
+    P: How would you like to define a style for your project?
+    R: Use a popular style guide
+
+    P: Which style guide do you want to follow?
+    R: Airbnb: https://github.com/airbnb/javascript
+
+    P: What format do you want your config file to be in?
+    R: JSON
+
+    P: Would you like to install them now with npm?
+    R: Yes
+
+

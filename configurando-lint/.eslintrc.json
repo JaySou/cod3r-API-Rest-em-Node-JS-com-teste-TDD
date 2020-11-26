@@ -1,0 +1,18 @@
+{
+    "env": {
+        "node": true,
+        "es2020": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 11
+    },
+    "rules": {
+        "no-console": "off",
+        "no-ternary": "off",
+        "no-nested-ternary": "off",
+        "eol-last": "off"
+    }
+}
